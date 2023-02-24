@@ -1,0 +1,86 @@
+/* Write your CSS code here */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.nav-items {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .nav-items {
+    align-items: center;
+  }
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.website-logo1 {
+  height: 40px;
+}
+.nav-logout {
+  height: 40px;
+}
+.symbal-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e6f6ff;
+  padding: 20px;
+}
+.nav-logout {
+  height: 35px;
+}
+.nav-products {
+  height: 30px;
+}
+.nav-cart {
+  height: 30px;
+}
+@media screen and (min-width: 768px) {
+  .nav-container {
+    display: none;
+  }
+  .symbal-container {
+    display: none;
+  }
+}
+.higher-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .higher-container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .website-logo2 {
+    height: 40px;
+  }
+}
+.right-container {
+  display: flex;
+}
+.home {
+  margin-right: 18px;
+  font-family: 'Roboto';
+}
+.logout {
+  background-color: #0967d2;
+  color: #ffffff;
+  width: 80px;
+  height: 32px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 15px;
+}

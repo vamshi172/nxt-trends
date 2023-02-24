@@ -1,0 +1,93 @@
+/* Write your CSS code here */
+.home-bg-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .home-bg-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 100px;
+  }
+}
+.main-heading {
+  text-align: center;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 36px;
+  width: 320px;
+  margin-bottom: 18px;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    align-self: flex-start;
+    text-align: start;
+    width: 80%;
+    font-size: 38px;
+    margin-bottom: 18px;
+  }
+}
+.cloth-icon {
+  width: 40%;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .cloth-icon {
+    display: none;
+  }
+}
+.description {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    text-align: start;
+    margin-bottom: 20px;
+  }
+}
+.btn-shop {
+  width: 190px;
+  height: 40px;
+  border: 0;
+  border-radius: 6px;
+  background-color: #0967d2;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+  .btn-shop {
+    align-self: flex-start;
+  }
+}
+.higher-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .higher-image {
+    display: block;
+    width: 25%;
+  }
+}
